@@ -39,3 +39,12 @@ header ul li {
   font-size: 150px;
   text-align: center;
 }
+
+.what {
+  padding-top: 30px;
+  color: white;
+}
+
+.what p {
+  font-weight: lighter;
+}

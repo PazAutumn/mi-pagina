@@ -17,6 +17,14 @@
   padding-left: calc(var(--grid-gutter-width) / 2);
 }
 
+.container-2 {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: calc(var(--grid-gutter-width) / 2);
+  padding-left: calc(var(--grid-gutter-width) / 2);
+}
+
 @media (--breakpoint-sm-up) {
   .container {
     max-width: var(--container-max-width-sm);

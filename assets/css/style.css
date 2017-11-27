@@ -1,1 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: roboto, sans-serif;
+}
+
+header {
+	background-color: gray;
+	height: 50px;
+  color: white;
+  padding-top: 15px;
+}
+
+header ul {
+  text-align: right;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 10px;
+}

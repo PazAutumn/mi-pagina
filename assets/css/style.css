@@ -11,9 +11,21 @@ body {
 
 header {
 	background-color: #B98788;
-	height: 50px;
+	height: 55px;
   color: white;
   padding-top: 5px;
+}
+
+header h2 {
+  padding-top: 0;
+}
+
+.fa-bars {
+  padding: 5px 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 120px;
+  display: none;
 }
 
 header ul {
@@ -66,6 +78,7 @@ header ul li {
 
 .btn.dos {
   margin: 10px;
+  color: white;
 }
 
 .photos {
@@ -83,6 +96,10 @@ header ul li {
   width: 302px;
   height: 455px;
   border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #B98788;
+  margin: 10px 0;
+  color: white;
 }
 
 img {
@@ -97,6 +114,7 @@ img {
   height: 65px;
   border-top: 1px solid gray;
   background-color: #739FB4;
+
 }
 
 footer {

@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Concert One', cursive;
+  font-family: 'Ubuntu', cursive;
   background-color: #9BBBCA;
 }
 
@@ -13,7 +13,7 @@ header {
 	background-color: #B98788;
 	height: 50px;
   color: white;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 header ul {
@@ -23,16 +23,16 @@ header ul {
 header ul li {
   list-style: none;
   display: inline-block;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 .tagline {
-  background-image: url(../img/fondo1.jpg);
+  background-image: url(../img/floral-background-3636.jpeg);
   object-fit: cover;
   width: 100%;
   height: 300px;
   font-family: 'Pacifico', cursive;
-  color: white;
+  color: #B98788;
 }
 
 .tagline h1 {
@@ -41,10 +41,69 @@ header ul li {
 }
 
 .what {
-  padding-top: 30px;
+  width: 100%;
+  height: 350px;
   color: white;
+  padding-top: 20px;
+}
+
+.what h1 {
+  padding: 20px 0;
 }
 
 .what p {
   font-weight: lighter;
+}
+
+.btn {
+  width: 140px;
+  height: auto;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #B98788;
+  border-radius: 5px;
+}
+
+.btn.dos {
+  margin: 10px;
+}
+
+.photos {
+  width: 100%;
+  height: 500px;
+}
+
+.photos p,h2 {
+  padding: 10px 12px 7px;
+  width: 100%;
+  margin-right: 1px;
+}
+
+.img {
+  width: 302px;
+  height: 455px;
+  border: 1px solid gray;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.bottom {
+  width: 300px;
+  height: 65px;
+  border-top: 1px solid gray;
+  background-color: #739FB4;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color:  #B98788;
+  padding: 40px;
+  text-align: center;
+  color: white;
 }

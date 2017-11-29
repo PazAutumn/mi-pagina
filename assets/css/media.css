@@ -9,8 +9,10 @@
     padding: 0;
     font-size: 22px;
   }
+  /*intenté ponerle otra clase y llamarlo
+  para editar el width pero no me dejó :(*/
   .col-6 {
-    width: 50%;
+    width: 50%; 
   }
   .fa-bars {
     margin-top: 0;
